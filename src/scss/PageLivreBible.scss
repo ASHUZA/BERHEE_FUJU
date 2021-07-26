@@ -1,0 +1,113 @@
+
+.liste_livre{
+
+//height: 100vh;
+//background-color: rgb(152, 218, 211);
+
+//background-color: rgb(98, 193, 196);
+
+background-color: rgb(23, 84, 117);
+
+}
+
+.liste_livre_title{
+height: 120px;
+//background-color: rgb(98, 193, 196);
+//border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+
+.liste_livre_profile{
+//    background-color: rgb(161, 209, 30);
+  //  height: 70%;
+}
+
+
+.liste_livre_testament{
+  //  background-color: rgb(182, 54, 54);
+  
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.liste_livre_testament .btntestament{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 13px;
+   // background-color: rgb(52, 224, 9);
+    height: 40px;
+    width: 240px;
+    border: 4px solid rgb(161, 244, 255);
+    border-radius: 20px;
+    color: white;
+    background-color: none;
+    background-color: rgb(23, 84, 117);
+}
+
+
+.activebtn{
+    background-color:#e0a91c !important ; 
+}
+
+.liste_livre_body{
+
+  //  height: 75%;
+    //width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+  //  background-color: rgb(186, 61, 61);
+}
+.liste_livre_body > ul{
+
+    margin-top: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+    //background-color: yellow;
+    width: 97%;
+
+
+//    width: 450px;
+}
+
+.liste_livre_body> ul>li {
+    background-color: #fff;
+    height: 45px;
+   width: 100%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   margin-left: -20px;
+
+   border-left: 6px solid #e0a91c;
+   padding-left: 10px;
+   color: black;
+   text-decoration: none;
+   text-transform: none;
+
+}
+
+
+.liste_livre_body ul li .btnlivre {
+
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: none;
+ 
+
+
+}

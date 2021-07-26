@@ -1,0 +1,31 @@
+.liste_version{
+   // height: 100vh   ;
+  //  background-color: rgb(206, 129, 129);
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+
+.liste_version_box{
+
+    height: 150px;
+margin-bottom: 10px;
+
+margin-left: 10px;
+margin-top: 10px;
+    width: 150px;
+    background-color: rgb(26, 173, 184);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btnversion{
+    color: white;
+}

@@ -1,0 +1,107 @@
+*,
+ ::before,
+ ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/robotos/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat/Montserrat-Black.ttf);
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat bold';
+    src: url(./fonts/Montserrat/Montserrat-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat Regular';
+    src: url(./fonts/Montserrat/Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Proxima';
+    src: url(./fonts/ProximaNovaFont.otf);
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+
+    background-color: #f1f2f3;
+}
+
+.section-title {
+    padding-bottom: 10px;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #040303;
+    font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background:  #010483;
+    margin: 4px 10px;
+}
+
+.section-title p {
+    margin: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #cc1616;
+}
+
+.SectionMovies{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.bockcard{
+
+    margin-bottom: -90px;
+}
+
+.blockserie{
+    margin-bottom: 50px;;
+
+}
