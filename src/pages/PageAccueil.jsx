@@ -23,7 +23,7 @@ function PageAccueil() {
 
 
                     <NavLink to="pageLivreBible" class="btnAT">Lecture de la bible</NavLink>
-                    <NavLink to="SectionFooter" class="btnNV">Quiz</NavLink>
+                    <NavLink to="QuizMain" class="btnNV">Quiz</NavLink>
                     <NavLink to="chapitre1" class="btnNV">Citations Hommes de Dieu</NavLink>
                     <NavLink to="Chapitre" class="btnNV">Verser par théme</NavLink>
                     <NavLink to="PageBtnChap" class="btnNV">Blog</NavLink>
