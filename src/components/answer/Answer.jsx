@@ -7,9 +7,9 @@ const Answer = (props) => {
             <li 
             className= 
             {
-                props.correctAnswer ===qAnswer ?
+                props.correctAnswer === qAnswer ?
                 'correct':
-                props.clickedAnswer ===qAnswer ?
+                props.clickedAnswer === qAnswer ?
                 'incorrect' : ''
             }
             onClick={() => props.checkAnswer(qAnswer)}
@@ -23,7 +23,7 @@ const Answer = (props) => {
         <ul disabled={props.clickedAnswer ? true : false} className="Answers">
             {answer}
         </ul>
- <div>
+ <div className="Labelanswer">
      {
          props.correctAnswer ?
          'correct answer' :

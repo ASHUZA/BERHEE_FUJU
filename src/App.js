@@ -12,6 +12,7 @@ import PageVersionBible from './pages/PageVersionBible';
 import PageBtnChap from './pages/PageBtnChap';
 import Chapitre from './pages/Chapitre';
 import Quiz from './components/QuizMain';
+import PageLivreQuiz from './pages/PageLIvreQuiz';
 
 
 
@@ -35,7 +36,8 @@ function App() {
 
 
           <Route exact path="/" component={PageAccueil} />
-          <Route path="/QuizMain" component={Quiz} />
+          <Route path="/QuizGenese" component={Quiz} />
+          <Route path="/PageLivreQuiz" component={PageLivreQuiz} />
           <Route path="/PageLivreBible">
             <PageLivreBible ShowChap={ShowChap} />
           </Route>

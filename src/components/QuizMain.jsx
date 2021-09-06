@@ -150,6 +150,7 @@ export default class Quiz extends Component {
         let { quiestions, answers, correctAnswer, clickedAnswer, step, score } = this.state;
         return(
             <div className="Content">
+                <h1>Genese</h1>
                 {step <= Object.keys(quiestions).length ? 
                     (<>
                         <Question
@@ -171,9 +172,9 @@ export default class Quiz extends Component {
                         onClick={() => this.nextStep(step)}>Next</button>
                     </>) : (
                         <div className="finalPage">
-                            <h1>You have completed the quiz!</h1>
-                            <p>Your score is: {score} of {Object.keys(quiestions).length}</p>
-                            <p>Thank you!</p>
+                            <h1>Vous avez répondu avec succés !</h1>
+                            <p>Votre score est : {score} of {Object.keys(quiestions).length}</p>
+                            <p>Merci!</p>
                         </div>
                     )
                 }

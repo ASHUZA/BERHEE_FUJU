@@ -1,7 +1,7 @@
 
 .liste_livre{
 
-//height: 100vh;
+height: 100vh;
 //background-color: rgb(152, 218, 211);
 
 //background-color: rgb(98, 193, 196);
@@ -52,8 +52,13 @@ align-items: center;
 }
 
 
+.liste_livre_testament .btntestament:hover{
+  background-color:#e0a91c !important ; 
+
+  
+}
 .activebtn{
-    background-color:#e0a91c !important ; 
+//    background-color:#e0a91c !important ; 
 }
 
 .liste_livre_body{
@@ -64,8 +69,8 @@ align-items: center;
     flex-direction: column;
     justify-content: start;
     align-items: center;
-
-  //  background-color: rgb(186, 61, 61);
+padding: 30px;
+ //   background-color: rgb(186, 61, 61);
 }
 .liste_livre_body > ul{
 
@@ -75,7 +80,7 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
     //background-color: yellow;
-    width: 97%;
+    width: 95%;
 
 
 //    width: 450px;
@@ -90,7 +95,7 @@ align-items: flex-start;
    display: flex;
    align-items: center;
    justify-content: start;
-   margin-left: -20px;
+  // margin-left: -20px;
 
    border-left: 6px solid #e0a91c;
    padding-left: 10px;

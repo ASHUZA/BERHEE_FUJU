@@ -1,13 +1,28 @@
+.Content{
+    background-color: #fff;
+    height: 100vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Content h1{
+    text-align: center;
+font-size: 24px;
+margin: 10px;
+margin-bottom: 30px;
+}
+
 .NextStep{
-    background-color: #009E00;
+    background-color: #815d00;
     color: #fff;
     padding:10px 30px;
     border: 0;
     border-radius: 3px;
     cursor: pointer;
+    margin-top: 20px;
+   // margin-left: 20px;
 }
 .NextStep:hover{
-    background-color: green;
+    background-color: #815d00;
 
 }
 
@@ -23,7 +38,7 @@
     margin: 15px 0;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    color: green;
+    color: #815d00;
     text-transform: none;
     text-shadow: none;
 }
